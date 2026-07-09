@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders the app heading', () => {
   render(<App />);
-  const heading = screen.getByText(/testing.../i);
+  const heading = screen.getByText(/weather no/i);
   expect(heading).toBeInTheDocument();
 });
